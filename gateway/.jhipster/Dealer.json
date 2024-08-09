@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20240807140015"
+  },
+  "clientRootFolder": "dealerApp",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "dealerApp",
+  "microservicePath": "../dealer-app",
+  "name": "Dealer",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
